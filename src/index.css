@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-black: #0d0c0b;
+  --color-charcoal: #171411;
+  --color-gold: #d5a653;
+  --color-light-gold: #f3c477;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.luxury-heading {
+  color: var(--color-light-gold);
+}
